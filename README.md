@@ -16,6 +16,23 @@ A RESTful CRUD API built with Go, Gin framework, and PostgreSQL. This project de
 - PostgreSQL
 - Git
 
+## Modules and Frameworks
+
+### Core Framework
+- [Gin](https://github.com/gin-gonic/gin) - Web framework for Go
+- [GORM](https://gorm.io/) - ORM library for Go
+
+### Key Dependencies
+- [godotenv](https://github.com/joho/godotenv) - Environment variable management
+- [lib/pq](https://github.com/lib/pq) - PostgreSQL driver for Go
+- [gin-gonic/gin](https://github.com/gin-gonic/gin) - HTTP web framework
+- [gorm.io/gorm](https://gorm.io/) - ORM library
+- [gorm.io/driver/postgres](https://gorm.io/docs/connecting_to_the_database.html) - PostgreSQL driver for GORM
+
+### Development Tools
+- [go.mod](https://go.dev/doc/modules/gomod-ref) - Go module management
+- [go.sum](https://go.dev/ref/mod#go-sum-files) - Go module checksum file
+
 ## Project Structure
 
 ```
